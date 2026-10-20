@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-08-30",
+  "sample_id": "006",
+  "ocr_source": "page_image",
+  "cache_match": true,
+  "procurement_result": {
+    "pdf_sha256": "756e72b687296254e776e5c27f6b4abf11f31958ca39d126d83e6646396bc296",
+    "ocr_text_sha256": "7f3cc23fc4da85619edd4a90e2cd220205d4af9d302896172c53918c4200c374",
+    "dpi": 300,
+    "cache_key": "rapidocr-3.9.2-pymupdf-300-f9c1503ceefc141f",
+    "quality_gate_passed": true
+  },
+  "contract": {
+    "pdf_sha256": "158b2f48a117d11d2a73a9ea51302120938782b7441348bdd9584fd6d7d2975c",
+    "ocr_text_sha256": "d15b5be1b0895ca393be60702be2b52aca965d383eec825bd87deba0cf4007c8",
+    "dpi": 300,
+    "cache_key": "rapidocr-3.9.2-pymupdf-300-f9c1503ceefc141f",
+    "quality_gate_passed": true
+  },
+  "matches_third_stage_manifest": true
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "006",
+  "model_name": "go_deepseek_v4_flash",
+  "exact_model_name": "deepseek-v4-flash",
+  "prompt_version": "2026-08-30.v6",
+  "technical_gate": "passed_with_warning",
+  "schema_validation_passed": true,
+  "evidence_validation_passed": true,
+  "item_codes_subset_of_covered_codes": true,
+  "duplicate_covered_codes": false,
+  "duplicate_item_codes": false,
+  "covered_clause_count": 11,
+  "predictions": [
+    {
+      "issue_type": "missing",
+      "clause_code": "value_added_service"
+    }
+  ],
+  "gold": [
+    {
+      "issue_type": "missing",
+      "clause_code": "value_added_service"
+    }
+  ],
+  "metrics": {
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "warnings": [
+    "模型未覆盖采购结果候选条款: acceptance, warranty_period"
+  ],
+  "scored_runs": 1,
+  "retry_count": 0,
+  "latency_ms": 58979,
+  "input_tokens": 3919,
+  "output_tokens": 9097,
+  "estimated_cost": null,
+  "stopped_after_recheck": true
+}

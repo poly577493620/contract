@@ -1,0 +1,51 @@
+[
+  {
+    "case": "同一条款合并",
+    "input": "采购要求免费培训，并要求24小时应急响应；合同均未承接",
+    "output_rule": "只输出一个 value_added_service/missing，在 difference 中同时说明培训和应急响应缺失"
+  },
+  {
+    "case": "空合同证据",
+    "output_rule": "missing 使用 contract_evidence={quote:'',page:null,chunk_id:null}"
+  },
+  {
+    "case": "问题编码先列入覆盖清单",
+    "input": {
+      "procurement_chunk": {
+        "text": "付款条件：收货后10日内付款",
+        "page": 1,
+        "chunk_id": "example-result-p1-c1"
+      },
+      "contract_chunk": {
+        "text": "付款条件：收货后20日内付款",
+        "page": 1,
+        "chunk_id": "example-contract-p1-c1"
+      }
+    },
+    "output": {
+      "covered_clause_codes": [
+        "payment_terms"
+      ],
+      "items": [
+        {
+          "clause_code": "payment_terms",
+          "verdict": "different",
+          "procurement_evidence": {
+            "quote": "收货后10日内付款",
+            "page": 1,
+            "chunk_id": "example-result-p1-c1"
+          },
+          "contract_evidence": {
+            "quote": "收货后20日内付款",
+            "page": 1,
+            "chunk_id": "example-contract-p1-c1"
+          },
+          "difference": "付款期限由收货后10日变为20日。",
+          "confidence": 0.95,
+          "needs_human_review": true
+        }
+      ],
+      "limitations": []
+    }
+  }
+]

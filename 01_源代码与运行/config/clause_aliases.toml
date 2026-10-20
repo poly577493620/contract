@@ -1,0 +1,14 @@
+[supplier]
+aliases = ["供应商", "中选人", "中标人", "乙方"]
+
+[total_price]
+aliases = ["项目总价", "合同金额", "中标金额", "成交金额"]
+
+[payment_terms]
+aliases = ["付款方式", "付款条件", "支付", "结清", "账期"]
+
+[value_added_service]
+aliases = ["增值服务", "免费培训", "技术培训", "应急响应"]
+
+[confidentiality]
+aliases = ["保密条款", "保密义务", "商业秘密", "数据安全与保密"]

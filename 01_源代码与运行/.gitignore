@@ -1,0 +1,21 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+outputs/sessions/
+outputs/tmp/
+tmp/
+*.log
+
+# 解压后的教学数据与派生结果不默认提交
+data/raw/
+data/processed/
+
+# 保留目录说明文件
+!data/raw/.gitkeep
+!data/processed/.gitkeep

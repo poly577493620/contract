@@ -1,0 +1,94 @@
+{
+  "version": "verified-v1",
+  "human_verified": true,
+  "reviewer": "用户（本Codex任务确认）",
+  "reviewed_at": "2026-08-28T12:49:18+08:00",
+  "authority_basis": "用户明确表示已审核完毕，并要求助手写入审核结论",
+  "candidate_count": 31,
+  "zero_issue_samples": [
+    "011",
+    "014"
+  ],
+  "samples": [
+    {
+      "sample_id": "001",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "002",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "003",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "004",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "005",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "006",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "007",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "008",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "009",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "010",
+      "candidate_count": 3
+    },
+    {
+      "sample_id": "011",
+      "candidate_count": 0
+    },
+    {
+      "sample_id": "012",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "013",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "014",
+      "candidate_count": 0
+    },
+    {
+      "sample_id": "015",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "016",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "017",
+      "candidate_count": 2
+    },
+    {
+      "sample_id": "018",
+      "candidate_count": 3
+    },
+    {
+      "sample_id": "019",
+      "candidate_count": 1
+    },
+    {
+      "sample_id": "020",
+      "candidate_count": 4
+    }
+  ]
+}

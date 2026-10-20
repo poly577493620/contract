@@ -1,0 +1,4 @@
+﻿model,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,median_ms,p95_ms,cost,success,failed,failure_rate
+go_glm53_flash,0.75,1.0,0.8571428571428571,0.75,1.0,0.8333333333333333,11385.5,15239.0,,2,0,0.0
+go_deepseek_v4_flash,1.0,0.6666666666666666,0.8,0.5,0.5,0.5,284927.0,394867.0,,1,1,0.5
+go_kimi_k3,1.0,1.0,1.0,1.0,1.0,1.0,60089.5,82542.0,,2,0,0.0

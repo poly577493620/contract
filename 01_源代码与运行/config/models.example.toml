@@ -1,0 +1,17 @@
+# 实际密钥只放在 .env 的 SMART_COMPLIANCE_MODEL_ENDPOINTS 中。
+# 下面仅记录推荐的逻辑名称和用途，不声明实时价格。
+
+[[models]]
+name = "model_a"
+provider = "OpenAI-compatible provider A"
+model = "replace-with-exact-model-name"
+
+[[models]]
+name = "model_b"
+provider = "OpenAI-compatible provider B"
+model = "replace-with-exact-model-name"
+
+[[models]]
+name = "model_c"
+provider = "OpenAI-compatible provider C"
+model = "replace-with-exact-model-name"

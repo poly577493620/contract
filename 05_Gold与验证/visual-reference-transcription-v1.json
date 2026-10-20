@@ -1,0 +1,570 @@
+{
+  "version": "visual-candidate-v1",
+  "transcription_date": "2026-08-28",
+  "recognition_method": "参考答案 PDF 第1页以 180 DPI 渲染为 PNG 后逐页视觉转录",
+  "human_verified": false,
+  "samples": [
+    {
+      "sample_id": "001",
+      "project_name": "2026年度总行办公家具采购项目",
+      "supplier": "上海鼎信办公家具制造有限公司",
+      "reference_file": "JZC-2026-001_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/001.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "36009e356bc42207",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "价格偏差",
+          "location": "合同第1条采购明细第4项",
+          "procurement_text": "会议桌（1.8m）单价 ¥3,500.00",
+          "contract_text": "会议桌（1.8m）单价 ¥3,716.90",
+          "difference_summary": "合同单价提高6.2%，高出¥216.90。"
+        }
+      ]
+    },
+    {
+      "sample_id": "002",
+      "project_name": "2026年度全行IT设备（台式机）采购项目",
+      "supplier": "深圳华泰办公设备有限公司",
+      "reference_file": "JZC-2026-002_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/002.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "470c356a8d174ead",
+          "issue_type": "different",
+          "clause_code": "quantity",
+          "issue_title": "数量差异",
+          "location": "合同第1条采购明细第2项",
+          "procurement_text": "显示器（23.8寸）数量500台",
+          "contract_text": "显示器（23.8寸）数量425台",
+          "difference_summary": "合同数量减少15%。"
+        }
+      ]
+    },
+    {
+      "sample_id": "003",
+      "project_name": "2026年度全行物业服务采购项目",
+      "supplier": "广州金桥物业服务有限公司",
+      "reference_file": "JZC-2026-003_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/003.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "67b79eb1ed360f55",
+          "issue_type": "missing",
+          "clause_code": "service_scope",
+          "issue_title": "关键商务条款缺失",
+          "location": "合同第1条第二款（服务内容及要求，仅有笼统描述）",
+          "procurement_text": "物业服务具体要求：①每日保洁不少于2次（上午9:00前、下午14:00前各一次），大堂等每2小时巡回；②配备专职保洁人员不少于8名，持有效健康证上岗，项目负责人具有3年以上经验；③每月出具书面保洁质量报告，含巡查记录、问题台账及照片；④涉密区域保洁人员须签署保密协议，进出须陪同登记；⑤绿化养护：室内绿植每周浇水施肥不少于2次，枯萎48小时内更换，室外每月修剪2次；⑥设施维护：水电每周巡检，空调每季度清洗保养，电梯每日巡检。",
+          "contract_text": "仅有笼统的服务内容及要求描述。",
+          "difference_summary": "采购结果中的六项具体服务要求均未在合同中体现。"
+        }
+      ]
+    },
+    {
+      "sample_id": "004",
+      "project_name": "2026年度全行安保服务采购项目",
+      "supplier": "成都安保达安全顾问有限公司",
+      "reference_file": "JZC-2026-004_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/004.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "281f1419562d5d69",
+          "issue_type": "different",
+          "clause_code": "contract_term",
+          "issue_title": "合同有效期与采购结果约定不一致",
+          "location": "合同有效期条款",
+          "procurement_text": "2026年3月1日至2027年2月28日（一年）",
+          "contract_text": "合同有效期至2026年12月31日",
+          "difference_summary": "合同将服务期限缩短，未覆盖采购结果约定的完整服务周期。"
+        }
+      ]
+    },
+    {
+      "sample_id": "005",
+      "project_name": "2026年度全行办公用品采购项目",
+      "supplier": "天津中启后勤服务有限公司",
+      "reference_file": "JZC-2026-005_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/005.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "cba9a7036d480d34",
+          "issue_type": "different",
+          "clause_code": "payment_terms",
+          "issue_title": "付款方式部分不一致",
+          "location": "付款方式条款",
+          "procurement_text": "验收合格后15日内结清当批货款",
+          "contract_text": "验收合格后30日内结清当批货款",
+          "difference_summary": "账期从“15日内”改为“30日内”。"
+        }
+      ]
+    },
+    {
+      "sample_id": "006",
+      "project_name": "总行大楼2026年度电梯维保服务项目",
+      "supplier": "深圳安廷电梯工程有限公司",
+      "reference_file": "FSC-2026-006_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/006.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "49c58c84878739a1",
+          "issue_type": "missing",
+          "clause_code": "value_added_service",
+          "issue_title": "增值服务条款缺失",
+          "location": "合同未见对应条款",
+          "procurement_text": "增值服务：①免费技术培训（每季度1次，每次不少于2小时）；②24小时应急响应服务（接到报修后2小时内到场）。",
+          "contract_text": "未见相关条款。",
+          "difference_summary": "合同未承接免费技术培训和24小时应急响应两项增值服务要求。"
+        }
+      ]
+    },
+    {
+      "sample_id": "007",
+      "project_name": "信用卡部2026年度营销活动执行服务采购项目",
+      "supplier": "武汉博创信息技术有限公司",
+      "reference_file": "FSC-2026-007_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/007.png",
+      "reference_issue_count": 2,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "ba70087ba261b71f",
+          "issue_type": "different",
+          "clause_code": "service_scope",
+          "issue_title": "服务范围不一致",
+          "location": "服务范围条款",
+          "procurement_text": "包含完整服务内容（详见采购结果需求描述）。",
+          "contract_text": "删除了线上H5页面开发（4个）和客户短信推送（100万条/年）。",
+          "difference_summary": "合同服务范围少于采购结果。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "ef9231989766e84d",
+          "issue_type": "different",
+          "clause_code": "contract_term",
+          "issue_title": "服务期限不一致（未超期）",
+          "location": "服务期限条款",
+          "procurement_text": "自签订之日起至2026年12月31日",
+          "contract_text": "自签订之日起至2026年10月31日",
+          "difference_summary": "合同服务期缩短2个月。"
+        }
+      ]
+    },
+    {
+      "sample_id": "008",
+      "project_name": "风险管理部数据分析系统开发项目",
+      "supplier": "北京中科技术服务有限公司",
+      "reference_file": "FSC-2026-008_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/008.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "93ae209c31b1dae6",
+          "issue_type": "different",
+          "clause_code": "contract_term",
+          "issue_title": "合同有效期超出采购批准期限",
+          "location": "合同有效期条款",
+          "procurement_text": "自2026年7月16日起2年，合规截止日为2028年7月15日",
+          "contract_text": "本合同有效期至2028年7月31日止",
+          "difference_summary": "合同有效期超出合规截止日16天。"
+        }
+      ]
+    },
+    {
+      "sample_id": "009",
+      "project_name": "人力资源部2026年度员工培训服务采购项目",
+      "supplier": "西安华信电子科技有限公司",
+      "reference_file": "FSC-2026-009_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/009.png",
+      "reference_issue_count": 2,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "518d02f28de2df40",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "价格偏差",
+          "location": "合同第1条采购明细第1项",
+          "procurement_text": "中层管理培训单价¥4,500.00",
+          "contract_text": "中层管理培训单价¥4,696.88",
+          "difference_summary": "合同单价提高4.4%，高出¥196.88。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "6a4d053096f27676",
+          "issue_type": "missing",
+          "clause_code": "service_scope",
+          "issue_title": "关键商务条款缺失",
+          "location": "合同第1条第二款（服务内容及要求，仅有笼统描述）",
+          "procurement_text": "培训配套服务要求：①每场提供茶歇（咖啡+茶点，人均不低于30元）；②专业摄影记录（不少于200张精修照片）；③会场布置（含签到台、背景板、易拉宝2个）；④培训后提供满意度调研报告。",
+          "contract_text": "仅有笼统的服务内容及要求描述。",
+          "difference_summary": "上述四项培训配套服务要求均未在合同中体现。"
+        }
+      ]
+    },
+    {
+      "sample_id": "010",
+      "project_name": "信息科技部2026年度网络安全评估服务采购项目",
+      "supplier": "南京博远系统集成有限公司",
+      "reference_file": "FSC-2026-010_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/010.png",
+      "reference_issue_count": 3,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "6cf430bc38cd7a96",
+          "issue_type": "different",
+          "clause_code": "quantity",
+          "issue_title": "数量差异",
+          "location": "合同第1条采购明细第2项",
+          "procurement_text": "安全漏洞扫描服务数量4次",
+          "contract_text": "安全漏洞扫描服务数量3次",
+          "difference_summary": "合同数量减少25%。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "ff562851bdc0c72a",
+          "issue_type": "different",
+          "clause_code": "payment_terms",
+          "issue_title": "付款方式部分不一致",
+          "location": "付款方式条款",
+          "procurement_text": "合同签订后预付40%，6月底第一次渗透测试完成验收后支付30%，12月全部工作完成验收后支付30%",
+          "contract_text": "合同签订后预付50%，6月底第一次渗透测试完成验收后支付30%，12月全部工作完成验收后支付30%",
+          "difference_summary": "预付比例从40%改为50%。"
+        },
+        {
+          "reference_item_no": 3,
+          "candidate_id": "c9fe8b9a45c8ba95",
+          "issue_type": "different",
+          "clause_code": "service_scope",
+          "issue_title": "服务范围不一致",
+          "location": "服务范围条款",
+          "procurement_text": "包含完整服务内容（详见采购结果需求描述）。",
+          "contract_text": "删除了安全培训服务（每次渗透测试后为甲方技术人员提供攻防培训）。",
+          "difference_summary": "合同服务范围删除了安全培训服务。"
+        }
+      ]
+    },
+    {
+      "sample_id": "011",
+      "project_name": "2026年度全行印刷服务采购项目",
+      "supplier": "广州恒达印务有限公司",
+      "reference_file": "JZC-2026-011_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/011.png",
+      "reference_issue_count": 0,
+      "issues": []
+    },
+    {
+      "sample_id": "012",
+      "project_name": "总行大楼UPS不间断电源设备采购项目",
+      "supplier": "深圳力源电气设备有限公司",
+      "reference_file": "FSC-2026-012_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/012.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "4e91102b080b6a77",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "合同明细小计计算错误",
+          "location": "合同第1条采购明细第2项（UPS电池组（12V100Ah））",
+          "procurement_text": "按单价×数量计算，正确小计为¥126,000.00",
+          "contract_text": "合同小计为¥126,500.00",
+          "difference_summary": "合同明细小计多出¥500.00，与单价×数量的乘积不一致。"
+        }
+      ]
+    },
+    {
+      "sample_id": "013",
+      "project_name": "总行2026年度常年法律顾问服务采购项目",
+      "supplier": "广东正信律师事务所",
+      "reference_file": "FSC-2026-013_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/013.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "e0706e71d5b0f019",
+          "issue_type": "different",
+          "clause_code": "breach_liability",
+          "issue_title": "违约金条款弱化",
+          "location": "违约责任条款",
+          "procurement_text": "违约金为合同总价5%",
+          "contract_text": "违约金为合同总价2%",
+          "difference_summary": "合同降低了违约金比例，削弱了对供应商的违约约束力。"
+        }
+      ]
+    },
+    {
+      "sample_id": "014",
+      "project_name": "2026年度全行员工健康体检服务采购项目",
+      "supplier": "广州康盛健康管理有限公司",
+      "reference_file": "JZC-2026-014_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/014.png",
+      "reference_issue_count": 0,
+      "issues": []
+    },
+    {
+      "sample_id": "015",
+      "project_name": "总行视频会议系统升级改造采购项目",
+      "supplier": "南京博远系统集成有限公司",
+      "reference_file": "FSC-2026-015_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/015.png",
+      "reference_issue_count": 2,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "7041a64934f8960b",
+          "issue_type": "different",
+          "clause_code": "delivery_period",
+          "issue_title": "交货/交付时间不一致",
+          "location": "交货/交付时间条款",
+          "procurement_text": "合同签订后45个工作日内",
+          "contract_text": "合同签订后60个工作日内",
+          "difference_summary": "合同延长了交货期限。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "1c55b429b4473e6d",
+          "issue_type": "missing",
+          "clause_code": "tax_rate",
+          "issue_title": "税率说明缺失",
+          "location": "价格/税率条款",
+          "procurement_text": "报价含13%增值税",
+          "contract_text": "仅注明“含税价”，未明确标注具体税率",
+          "difference_summary": "合同省略了具体税率信息，可能导致结算时税率争议。"
+        }
+      ]
+    },
+    {
+      "sample_id": "016",
+      "project_name": "总行档案数字化加工服务采购项目",
+      "supplier": "广州智汇档案科技有限公司",
+      "reference_file": "FSC-2026-016_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/016.png",
+      "reference_issue_count": 2,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "a3f0ca17d26748dd",
+          "issue_type": "missing",
+          "clause_code": "quality_standard",
+          "issue_title": "关键商务条款缺失",
+          "location": "合同第1条第二款（服务内容及要求，仅有笼统描述）",
+          "procurement_text": "档案数字化具体质量标准：①扫描分辨率不低于300dpi；②图像歪斜度≤1°；③黑边去除率≥98%；④OCR识别准确率≥98%；⑤须符合DA/T 31-2017《纸质档案数字化规范》。",
+          "contract_text": "仅有笼统的服务内容及要求描述。",
+          "difference_summary": "上述五项具体质量标准均未在合同中体现。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "88735bc29d4c9696",
+          "issue_type": "different",
+          "clause_code": "delivery_period",
+          "issue_title": "工作日/自然日计算口径不一致",
+          "location": "服务时间计算口径",
+          "procurement_text": "工作日",
+          "contract_text": "自然日",
+          "difference_summary": "合同将计时基准从“工作日”改为“自然日”，实际服务时间大幅增加。"
+        }
+      ]
+    },
+    {
+      "sample_id": "017",
+      "project_name": "2026年度全行消防设备采购项目",
+      "supplier": "深圳华泰办公设备有限公司",
+      "reference_file": "JZC-2026-017_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/017.png",
+      "reference_issue_count": 2,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "637625bf3779e8f8",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "价格偏差",
+          "location": "合同第1条采购明细第1项",
+          "procurement_text": "气体灭火系统（七氟丙烷）单价¥35,000.00",
+          "contract_text": "气体灭火系统（七氟丙烷）单价¥37,338.82",
+          "difference_summary": "合同单价提高6.7%，高出¥2,338.82。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "0b383e22586bd49d",
+          "issue_type": "different",
+          "clause_code": "warranty_period",
+          "issue_title": "质保期缩短",
+          "location": "质保期条款",
+          "procurement_text": "质保期36个月",
+          "contract_text": "质保期24个月",
+          "difference_summary": "合同质保期短于采购结果约定的质保期。"
+        }
+      ]
+    },
+    {
+      "sample_id": "018",
+      "project_name": "信贷管理系统升级改造项目",
+      "supplier": "杭州智云软件开发有限公司",
+      "reference_file": "FSC-2026-018_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/018.png",
+      "reference_issue_count": 3,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "667ec0a9ff49f4d3",
+          "issue_type": "different",
+          "clause_code": "quantity",
+          "issue_title": "数量差异",
+          "location": "合同第1条采购明细第2项",
+          "procurement_text": "风险评分模型集成数量3套",
+          "contract_text": "风险评分模型集成数量2套",
+          "difference_summary": "合同数量减少33%。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "9bcc496904a6eca8",
+          "issue_type": "different",
+          "clause_code": "payment_terms",
+          "issue_title": "付款方式部分不一致",
+          "location": "付款方式条款",
+          "procurement_text": "合同签订预付40%，系统上线支付30%，验收合格支付25%，质保期满支付5%",
+          "contract_text": "合同签订预付50%，系统上线支付30%，验收合格支付25%，质保期满支付5%",
+          "difference_summary": "预付比例从40%改为50%。"
+        },
+        {
+          "reference_item_no": 3,
+          "candidate_id": "c2ada8d4c59924d4",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "合同明细小计计算错误",
+          "location": "合同第1条采购明细第1项（信贷审批流程改造）",
+          "procurement_text": "按单价×数量计算，正确小计为¥480,000.00",
+          "contract_text": "合同小计为¥480,800.00",
+          "difference_summary": "合同明细小计多出¥800.00，与单价×数量的乘积不一致。"
+        }
+      ]
+    },
+    {
+      "sample_id": "019",
+      "project_name": "2026年度全行保洁耗材采购项目",
+      "supplier": "天津中启后勤服务有限公司",
+      "reference_file": "JZC-2026-019_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/019.png",
+      "reference_issue_count": 1,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "d23e432a1a46a2a6",
+          "issue_type": "different",
+          "clause_code": "delivery_period",
+          "issue_title": "交货/交付时间不一致",
+          "location": "交货/交付时间条款",
+          "procurement_text": "30个工作日内",
+          "contract_text": "45个工作日内",
+          "difference_summary": "合同延长了交货期限。合同中部分条款将“甲方”表述为“采购方”，两者指代同一主体，不构成实质性差异。"
+        }
+      ]
+    },
+    {
+      "sample_id": "020",
+      "project_name": "总行数据备份存储设备采购项目",
+      "supplier": "深圳力源电气设备有限公司",
+      "reference_file": "FSC-2026-020_参考答案.pdf",
+      "source_page": 1,
+      "page_image": "outputs/qa/gold-visual-v1/pages/020.png",
+      "reference_issue_count": 4,
+      "issues": [
+        {
+          "reference_item_no": 1,
+          "candidate_id": "02a38cea2f1f905e",
+          "issue_type": "different",
+          "clause_code": "unit_price",
+          "issue_title": "价格偏差",
+          "location": "合同第1条采购明细第1项",
+          "procurement_text": "企业级磁盘阵列单价¥185,000.00",
+          "contract_text": "企业级磁盘阵列单价¥198,802.66",
+          "difference_summary": "合同单价提高7.5%，高出¥13,802.66。"
+        },
+        {
+          "reference_item_no": 2,
+          "candidate_id": "b56d5f3861bf12e4",
+          "issue_type": "different",
+          "clause_code": "quantity",
+          "issue_title": "数量差异",
+          "location": "合同第1条采购明细第4项",
+          "procurement_text": "光纤交换机数量2台",
+          "contract_text": "光纤交换机数量1台",
+          "difference_summary": "合同数量减少50%。"
+        },
+        {
+          "reference_item_no": 3,
+          "candidate_id": "23a9dc79ec708c02",
+          "issue_type": "different",
+          "clause_code": "breach_liability",
+          "issue_title": "违约金条款弱化",
+          "location": "违约责任条款",
+          "procurement_text": "违约金为合同总价0.5‰",
+          "contract_text": "违约金为合同总价0.3‰",
+          "difference_summary": "合同降低了违约金比例，削弱了对供应商的违约约束力。"
+        },
+        {
+          "reference_item_no": 4,
+          "candidate_id": "444dc9f3fc61f3ca",
+          "issue_type": "different",
+          "clause_code": "warranty_period",
+          "issue_title": "质保期缩短",
+          "location": "质保期条款",
+          "procurement_text": "质保期36个月",
+          "contract_text": "质保期24个月",
+          "difference_summary": "合同质保期短于采购结果约定的质保期。"
+        }
+      ]
+    }
+  ],
+  "arbitration_items": [
+    {
+      "sample_id": "005",
+      "source": "第二阶段模型测试输出",
+      "model_name": "go_deepseek_v4_flash",
+      "issue_type": "missing",
+      "clause_code": "contract_term",
+      "issue_title": "合同期限缺失",
+      "procurement_text": "自合同签订之日起至2026年12月31日",
+      "contract_text": "模型判断合同未明确约定终止日期",
+      "model_reason": "采购结果有明确截止日期，而合同未见对应终止日期，模型据此提出额外缺失项。",
+      "reference_answer_status": "参考答案页面仅列出付款方式部分不一致，未列出该项；须由人工决定是否成立。"
+    }
+  ]
+}

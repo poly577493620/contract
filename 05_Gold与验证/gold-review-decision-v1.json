@@ -1,0 +1,24 @@
+{
+  "version": "gold-review-decision-v1",
+  "reviewer": "用户（本Codex任务确认）",
+  "reviewed_at": "2026-08-28T12:49:18+08:00",
+  "authority_basis": "用户明确表示已审核完毕，并要求助手写入审核结论",
+  "reference_candidates": {
+    "source": "outputs/qa/gold-visual-v1/visual-candidates.json",
+    "decision": "确认现有30条",
+    "candidate_count": 30
+  },
+  "arbitration_items": [
+    {
+      "sample_id": "005",
+      "decision": "成立并计入Gold",
+      "issue_type": "missing",
+      "clause_code": "contract_term",
+      "issue_title": "合同期限缺失",
+      "procurement_text": "自合同签订之日起至2026年12月31日",
+      "contract_text": "合同未明确约定终止日期",
+      "difference_summary": "采购结果有明确截止日期，合同未承接该期限约定。",
+      "notes": "参考答案页面未列出该项；用户明确要求005计入。"
+    }
+  ]
+}
